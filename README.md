@@ -5,9 +5,9 @@
 
 ## Related Works
 
-[1] Bergmann, Paul, et al. "Improving unsupervised defect segmentation by applying structural similarity to autoencoders." arXiv preprint arXiv:1807.02011 (2018)
+[1] Bergmann, Paul, et al. *"Improving unsupervised defect segmentation by applying structural similarity to autoencoders."* arXiv preprint arXiv:1807.02011 (2018)
 
-[2] Bergmann, Paul, et al. "MVTec AD--A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019
+[2] Bergmann, Paul, et al. *"MVTec AD--A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection."* Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019
 
 ## Data
 
@@ -19,10 +19,12 @@ Put downloaded datasets in directory *data/*
 
 ## Training
 
+```
 python AE_training.py 
 [-h] [--dataset_name DATASET_NAME] [--latent_dim LATENT_DIM]
 [--batch_size BATCH_SIZE] [--training_loss TRAINING_LOSS]
 [--load_model LOAD_MODEL] [--random_crop RANDOM_CROP]
+```
 
 **Parameters**:
 - dataset_name (name of dataset used for training) e.g. "grid", "carpet", "texture_1", "texture_2",
